@@ -1,4 +1,4 @@
-class CreateBooksContentLimit200 < ActiveRecord::Migration[6.1]
+class CreateBooks < ActiveRecord::Migration[6.1]
   def change
     create_table :books do |t|
 
